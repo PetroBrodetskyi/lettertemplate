@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Email</title>
+    <title>Persönliche E-Mail</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,7 +23,7 @@
         }
 
         .header {
-            background-color: #800080;
+            background: linear-gradient(180deg, rgba(13, 13, 14, 0.9) 0%, rgba(97, 97, 97, 0.85) 100%);
             color: #ffffff;
             padding: 10px;
             text-align: center;
@@ -35,21 +35,10 @@
         }
 
         .footer {
-            background-color: #f4f4f4;
-            color: #666666;
+            background-color: rgba(97, 97, 97, 0.85);
             text-align: center;
-            padding: 10px;
-            font-size: 12px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 20px 0;
-            color: #ffffff;
-            background-color: #800080;
-            text-decoration: none;
-            border-radius: 5px;
+            padding: 20px;
+            font-size: 14px;
         }
 
         @media only screen and (max-width: 600px) {
@@ -62,33 +51,49 @@
                 box-sizing: border-box;
             }
         }
+
+        .mail {
+            color: #ffffff;
+        }
+
     </style>
 </head>
 
 <body>
     <div class="email-container">
         <div class="header">
-            <h1>Персональний Лист</h1>
+            <h1>Informationen von Petro Brodetskyi</h1>
+            <p>Hintergasse 27, 35510 Butzbach</p>
         </div>
         <div class="content">
-            <p>Доброго дня, [Ім'я]!</p>
+            <p>Liebe Frau Giebl,</p>
             <p>
-                Ми раді вітати вас! Сподіваємось, що ви знайдете наші пропозиції цікавими. Нижче наведені деталі:
+                in dieser E-Mail sende ich Ihnen die folgenden Dokumente:
             </p>
             <ul>
-                <li>Пропозиція 1</li>
-                <li>Пропозиція 2</li>
-                <li>Пропозиція 3</li>
+                <li>Lebenslauf</li>
+                <li>Bescheinigung über die Teilnahme an den Sprachkursen</li>
+                <li>Lebenslauf als FullStack-Entwickler auf Deutsch</li>
+                <li>Resume als FullStack-Entwickler auf Englisch</li>
+                <li>Link zur Tabelle meiner Bewerbungsrückmeldungen</li>
             </ul>
             <p>
-                Для більш детальної інформації, будь ласка, натисніть на кнопку нижче.
+                Bitte lassen Sie mich wissen, wenn Sie Anmerkungen haben oder ich Fehler in diesen Dokumenten
+                korrigieren muss. Außerdem informiere ich Sie, dass ich zwei E-Mail-Adressen benutze:
+                petro.brodetskyi@gmail.com und petr.brodeckyi@gmail.com.
             </p>
-            <a href="https://petrobrodetskyi.github.io/lebenslauf/" class="button">Дізнатися більше</a>
+            <p>
+                Ich informiere Sie auch darüber, dass ich zwei E-Mail-Adressen benutze: petro.brodetskyi@gmail.com und
+                petr.brodeckyi@gmail.com.
+            </p>
+            <p>
+                Mit freundlichen Grüßen, Petro
+            </p>
         </div>
         <div class="footer">
-            <p>Це автоматичне повідомлення. Будь ласка, не відповідайте на нього.</p>
-            <p>Ви отримали цей лист, тому що підписалися на наші новини.</p>
-            <p>© 2024 Ваш Бренд. Всі права захищені.</p>
+            <a class="mail" href="mailto:petro.brodetskyi@gmail.com">
+                <span>petro.brodetskyi@gmail.com</span>
+            </a>
         </div>
     </div>
 </body>
